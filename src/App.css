@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+
+
+.sarcastic-app {
+  text-align: center;
+  font-family: 'Poppins', sans-serif; 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  font-size: 1.5rem;
+  background-color:#222222;
+}
+
+.sarcastic-input{
+  font-family: inherit;
+  width: 25%;
+  border: 0;
+  border-bottom: 2px solid #9b9b9b;
+  outline: 0;
+  font-size: 1.3rem;
+  color: #fff;
+  padding: 7px 0;
+  background: transparent;
+  user-select: none;
+}
+
+.sarcastic-input:focus {
+  padding-bottom: 6px;  
+  font-weight: 700;
+  border-width: 3px;
+  border-image: linear-gradient(to right, purple, pink);
+  border-image-slice: 1;
+}
+
+.sarcastic-result {
+  width: 25vw;
+  height: 75px;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.sarcastic-text {
+  color: coral;
+  max-width: 100%;
+  max-height: 50px;
+  font-family: 'Architects Daughter', cursive, Arial, sans-serif;
+}
+
+.sarcastic-button {
+  border: none;
+  font-size: 30px;
+  color: purple;
+  background: none;
+}
+
+.sarcastic-mail {
+  bottom: 50px;
+  color: pink;
+  opacity: 0.75;
+  position: absolute;
+}
